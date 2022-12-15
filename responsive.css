@@ -1,0 +1,28 @@
+/* PC */
+@media (min-width: 1024px) {
+}
+
+/* Tablet */
+@media (max-width: 1023px) {
+}
+
+/* Mobile */
+@media (max-width: 749px) {
+  /* Slideshow */
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+
+  /* Footer */
+
+  #Footer {
+    flex-direction: column;
+    margin-left: 40px;
+  }
+
+  #Footerp2 {
+    margin-left: 0px;
+  }
+}
